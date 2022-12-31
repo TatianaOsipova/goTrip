@@ -1,4 +1,3 @@
-
 :root {
     --container-width: 1270px;
     --container-padding: 15px;
@@ -17,37 +16,55 @@ body {
     padding: 0 var(--container-padding);
 }
 
-.container-right{
+.container-right {
     padding-left: calc(100% - var(--container-width))/2 + var(--container-padding);
-    
+}
+
+a {
+    color: #fff;
 }
 
 /* styling header start */
 
-.header{
+.header {
     min-height: 940px;
     padding-top: 44px;
     background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
 }
 
-.header::after{
+.header::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 96px;    
-    background-image: url(./../images/header-button.svg); 
+    height: 96px;
+    background-image: url(./../images/header-button.svg);
     background-size: 100%;
 }
 
-.header__top{
+.header__top {
     margin-bottom: 86px;
 }
 
-.header__content{
+.header__content {
     max-width: 592px;
 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+
+}
+
+.nav__logo {}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 
