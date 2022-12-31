@@ -1,3 +1,4 @@
+
 :root {
     --container-width: 1270px;
     --container-padding: 15px;
@@ -20,3 +21,28 @@ body {
     padding-left: calc(100% - var(--container-width))/2 + var(--container-padding);
     
 }
+
+/* styling header start */
+
+.header{
+    min-height: 940px;
+    background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
+}
+
+.header::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 96px;
+    background-image: url(./../images/header-button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* styling header end */
