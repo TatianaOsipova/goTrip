@@ -20,7 +20,7 @@ body {
     padding-left: calc(100% - var(--container-width))/2 + var(--container-padding);
 }
 
-a {
+.header a {
     color: #fff;
 }
 
@@ -56,10 +56,34 @@ a {
     display: flex;
     justify-content: space-between;
     column-gap: 80px;
-
+    align-items: center;
 }
 
-.nav__logo {}
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    font-weight: 500;
+    font-size: 15px;   
+}
+
+.nav__list a{
+    position: relative;
+}
+
+
+.nav__list a.active::after,
+.nav__list a:hover::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 10px;
+    bottom: -6px;
+    display: block;
+    /* width: 35px; */
+    height: 4px;
+    border-radius: 50px;
+    background: #C4C4C4;
+}
 
 .logo {
     font-weight: 700;
