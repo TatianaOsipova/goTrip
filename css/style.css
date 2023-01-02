@@ -4,6 +4,10 @@
     --secondary: rgba(15, 31, 28, 0.5);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f6f6f6;
@@ -18,6 +22,10 @@ body {
 
 .container-right {
     padding-left: calc(100% - var(--container-width))/2 + var(--container-padding);
+}
+
+a {
+    text-decoration: none;
 }
 
 .header a {
@@ -49,7 +57,6 @@ body {
 
 .header__content {
     max-width: 592px;
-
 }
 
 .nav {
@@ -69,7 +76,6 @@ body {
 .nav__list a {
     position: relative;
 }
-
 
 .nav__list a.active::after,
 .nav__list a:hover::after {
@@ -93,17 +99,70 @@ body {
 
 .nav__login {
     display: flex;
+    align-items: center;
     column-gap: 25px;
     font-size: 15px;
     font-weight: 500;
 }
 
 .btn {
+    display: inline-block;
     padding: 13px 44px;
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
     border-radius: 100px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    color: rgb(26, 25, 21);
+    transform: color 0.2s ease-in;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.header__badge {
+    margin-bottom: 7px;
+    display: inline-block;
+    padding: 11px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+.header__title {
+    margin-bottom: 30px;
+    font-size: 55px;
+    line-height: 82px;
+    color: #fff;
+
 
 }
+
+.header__text {
+    max-width: 519px;
+    margin-bottom: 68px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header__btn {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FEFEFE;
+    padding: 27px 48px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    border-radius: 27px;
+}
+
 
 
 
