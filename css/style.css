@@ -55,6 +55,11 @@ a {
     margin-bottom: 86px;
 }
 
+.header__row{
+    display: flex;
+
+}
+
 .header__content {
     max-width: 592px;
 }
@@ -154,6 +159,7 @@ a {
 }
 
 .header__btn {
+    display: inline-block;
     font-weight: 600;
     font-size: 25px;
     line-height: 38px;
@@ -162,6 +168,18 @@ a {
     background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
     border-radius: 27px;
 }
+
+.header__btn:hover {
+    color: rgb(26, 25, 21);
+    transform: color 0.2s ease-in;
+}
+
+.header__btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
 
 
 
