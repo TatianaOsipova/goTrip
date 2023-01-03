@@ -463,6 +463,42 @@ a {
     margin-bottom: 60px;
 }
 
-.subscibe-form {}
+.subscibe-form {
+    padding: 12px 15px 12px 46px;
+    border-radius: 35px;
+    background-color: #fff;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.subscibe-form__input{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.subscibe-form__input::placeholder{
+    color: var(--secondary);
+}
+
+.subscribe-form__btn{
+    display: inline-block;
+    padding: 34px 86px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff
+}
+
+.subscribe-form__btn:hover {
+    color: rgb(26, 25, 21);
+    transform: color 0.2s ease-in;
+}
+
+.subscribe-form__btn:active {
+    position: relative;
+    top: 1px;
+}
 
 /* styling main section subscribe end */
