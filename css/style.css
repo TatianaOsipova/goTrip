@@ -381,3 +381,41 @@ a {
 }
 
 /* styling main section customers end */
+
+/* styling main section cta start */
+
+.cta {
+    padding: 100px 0;
+}
+
+.cta__plate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 580px;
+    padding: 40px 15px;
+    background-color: #fff;
+    border-radius: 60px;
+}
+
+.cta__title {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 68px;
+    text-align: center;
+    color: #0F1F1C;
+}
+
+.cta__text {
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: var(--secondary);
+}
+
+
+/* styling main section cta end */
