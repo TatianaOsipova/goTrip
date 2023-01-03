@@ -104,10 +104,22 @@ a {
     background-color: #C4C4C4;
 }
 
+.nav__list--footer{
+
+}
+
 .logo {
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+.logo a{
+    color: inherit;
+}
+
+.logo--footer{
+    color: #ff7c4e;
 }
 
 .nav__login {
@@ -502,3 +514,11 @@ a {
 }
 
 /* styling main section subscribe end */
+
+/* styling footer start */
+
+.footer{}
+
+
+
+/* styling footer end */
