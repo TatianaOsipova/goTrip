@@ -442,11 +442,26 @@ a {
 
 /* styling main section subscribe start */
 
-.subscribe {}
+.subscribe {
+    padding: 35px 0 50px;
+}
 
-.subscribe__content {}
+.subscribe__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-.subscribe__title {}
+.subscribe__title {
+    max-width: 494px;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    text-align: center;
+    color: #0F1F1C;
+    margin-bottom: 60px;
+}
 
 .subscibe-form {}
 
