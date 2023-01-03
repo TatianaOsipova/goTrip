@@ -199,10 +199,18 @@ a {
     height: 940px;
 }
 
-
-
-
-
-
-
 /* styling header end */
+
+/* styling main section destinations start */
+
+.destinations {}
+
+.destinations__row {}
+
+.destinations__content {}
+
+.destinations__slider {}
+
+.container-right {}
+
+/* styling main section destinations end */
