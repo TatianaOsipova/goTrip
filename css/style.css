@@ -302,10 +302,44 @@ a {
     justify-content: flex-start;
 }
 
-.slider__btn--next {    
+.slider__btn--next {
     right: -27px;
     padding-right: 26px;
     justify-content: flex-end;
 }
 
 /* styling main section destinations end */
+
+/* styling main section customers start */
+
+.container {}
+
+.customers {}
+
+.customers__row {}
+
+.customers__img {}
+
+.customers__content {}
+
+.customers__title {}
+
+
+.review {}
+
+.review__client {}
+
+.review__client-avatar {}
+
+.review__client-desc {}
+
+.review__client-desc--name {}
+
+.review__client-desc--country {}
+
+.review__text {}
+
+.review__rating {}
+
+
+/* styling main section customers end */
