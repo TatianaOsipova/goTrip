@@ -15,13 +15,13 @@ body {
 }
 
 .container {
-    max-width: var(--container-width);
     margin: 0 auto;
+    max-width: var(--container-width);
     padding: 0 var(--container-padding);
 }
 
 .container-right {
-    padding-left: calc(100% - var(--container-width))/2 + var(--container-padding);
+    padding-left: calc((100% - var(--container-width))/2);
 }
 
 a {
@@ -35,9 +35,16 @@ a {
 /* styling header start */
 
 .header {
+    overflow: hidden;
+    position: relative;
     min-height: 940px;
     padding-top: 44px;
     background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
+    color: #fff;
+}
+
+.header a {
+    color: #fff;
 }
 
 .header::after {
@@ -55,13 +62,14 @@ a {
     margin-bottom: 86px;
 }
 
-.header__row{
+.header__row {
     display: flex;
-
 }
 
 .header__content {
     max-width: 592px;
+    position: relative;
+    z-index: 1;
 }
 
 .nav {
@@ -145,8 +153,6 @@ a {
     font-size: 55px;
     line-height: 82px;
     color: #fff;
-
-
 }
 
 .header__text {
@@ -177,6 +183,20 @@ a {
 .header__btn:active {
     position: relative;
     top: 1px;
+}
+
+.header__img {
+    position: relative;
+    flex-grow: 1;
+}
+
+.header__img img {
+    position: absolute;
+    top: -181px;
+    right: -87px;
+    max-width: unset;
+    width: 894px;
+    height: 940px;
 }
 
 
