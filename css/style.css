@@ -228,6 +228,16 @@ a {
     pointer-events: none;
 }
 
+.header__img::after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: -50px;
+    width: 830px;
+    height: 622px;
+    background-image: url(./../images/decor-elements.svg);
+}
+
 /* styling header end */
 
 /* styling main section destinations start */
