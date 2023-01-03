@@ -223,8 +223,6 @@ a {
     flex-shrink: 0;
 }
 
-.destinations {}
-
 .destinations__title {
     margin-bottom: 15px;
     font-size: 55px;
@@ -264,6 +262,11 @@ a {
     top: 1px;
 }
 
+.slider {
+    position: relative;
+    height: 456px;
+}
+
 .slider__item {
     margin-top: 27px;
     width: 335px;
@@ -277,6 +280,32 @@ a {
     margin-top: 0;
     width: 380px;
     height: 456px;
+}
+
+.slider__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+}
+
+.slider__btn--prev {
+    left: -27px;
+    padding-left: 26px;
+    justify-content: flex-start;
+}
+
+.slider__btn--next {    
+    right: -27px;
+    padding-right: 26px;
+    justify-content: flex-end;
 }
 
 /* styling main section destinations end */
