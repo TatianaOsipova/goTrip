@@ -307,6 +307,11 @@ a {
     top: 1px;
 }
 
+.owl-item{
+    display: flex;
+    justify-content: center;
+}
+
 .slider {
     position: relative;
     height: 456px;
@@ -824,11 +829,10 @@ a {
 
     .customers {
         padding: 50px 0 60px;
-    }
+    }    
 
-    .customers__row {
-        flex-direction: column-reverse;
-        row-gap: 30px;
+    .customers__row{
+        column-gap: 30px;
     }
 
     .customers__title {
@@ -912,6 +916,13 @@ a {
     }
 }
 
+@media(max-width: 640px){
+    .customers__row {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+}
+
 @media (max-width: 600px) {
     .cta__plate::before {
         left: 30px;    
@@ -932,9 +943,10 @@ a {
 
     .subscribe-form__input {
         text-align: center;
-        padding: 15px 6px;
+        padding: 15px;
         background-color: #f0f0f0;
         border-radius: 20px;
+        font-size: 18px;
     }
 
     .subscribe-form__btn {
@@ -952,6 +964,10 @@ a {
     .nav--mobile .nav__list,
     .nav--mobile .nav__login {
         row-gap: 20px;
+    }
+
+    .customers__img img{
+        max-width: 100%;
     }
 
     .subscibe-form {        
