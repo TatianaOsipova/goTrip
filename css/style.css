@@ -635,8 +635,6 @@ a {
     .destinations__slider {
         width: 900px;
     }
-
-
 }
 
 @media(max-width: 1000px) {
@@ -709,32 +707,25 @@ a {
         width: 600px;
     }
 
-    .slider{
+    .slider {
         height: 304px;
     }
 
-    .slider .slider__item{
+    .slider .slider__item {
         margin-top: 18px;
         width: 223px;
         height: 268px;
     }
 
-    .slider .center .slider__item{
+    .slider .center .slider__item {
         margin-top: 0;
         width: 253px;
         height: 304px;
     }
-
-
-
-
-
-
-
 }
 
 @media (max-width: 850px) {
-    .container-right{
+    .container-right {
         padding-right: 15px;
     }
 
@@ -787,40 +778,40 @@ a {
         border-radius: 18px;
     }
 
-    .destinations{
+    .destinations {
         padding: 40px 0 50px;
 
     }
 
-    .destinations__row{
+    .destinations__row {
         flex-direction: column;
         row-gap: 30px;
-    }   
+    }
 
-    .destinations__slider{
+    .destinations__slider {
         width: 100%;
     }
-    
-    .slider__btn--prev{
+
+    .slider__btn--prev {
         left: -15px;
     }
 
-    .slider__btn--next{
+    .slider__btn--next {
         right: -15px;
     }
 
-    .destinations__title{
+    .destinations__title {
         margin-bottom: 10px;
         font-size: 35px;
         line-height: 50px;
     }
 
-    .destinations__title span{
+    .destinations__title span {
         display: block;
         font-size: 20px;
     }
 
-    .destinations__text{
+    .destinations__text {
         margin-bottom: 30px;
         font-size: 20px;
     }
@@ -831,88 +822,120 @@ a {
         border-radius: 20px;
     }
 
-    .customers{
+    .customers {
         padding: 50px 0 60px;
     }
-    .customers__row{
+
+    .customers__row {
         flex-direction: column-reverse;
         row-gap: 30px;
     }
 
-    .customers__title{
+    .customers__title {
         margin-bottom: 25px;
         font-size: 35px;
         line-height: 50px;
     }
 
-    .review__client{
+    .review__client {
         column-gap: 30px;
         margin-bottom: 20px;
     }
 
-    .review__client-avatar{
+    .review__client-avatar {
         width: 80px;
         height: 80px;
     }
 
-    .review__client-desc--name{
+    .review__client-desc--name {
         margin-bottom: 5px;
         font-size: 23px;
     }
 
-    .review__client-desc--country{
+    .review__client-desc--country {
         font-size: 18px;
     }
 
-    .review__text{
+    .review__text {
         margin-bottom: 20px;
         font-size: 18px;
     }
 
-    .review__rating{
+    .review__rating {
         max-width: 200px;
     }
 
-    .customers__img img{
+    .customers__img img {
         max-width: 300px;
         border-radius: 40px;
     }
 
-    .cta{
+    .cta {
         padding: 50px 0;
     }
 
-    .cta__title{
+    .cta__title {
         margin-bottom: 20px;
         font-size: 35px;
         line-height: 50px;
     }
 
-    .cta__text{
+    .cta__text {
         margin-bottom: 30px;
         font-size: 20px;
     }
 
-    .cta__plate{
+    .cta__plate {
         min-height: 380px;
         padding: 20px 15px;
         border-radius: 40px;
     }
 
-    .subscribe{
+    .subscribe {
         padding: 25px 0 30px;
     }
 
-    .subscribe__title{
+    .subscribe__title {
         font-size: 35px;
         margin-bottom: 30px;
         line-height: 50px;
     }
 
+    .subscibe-form {
+        padding: 10px 10px 10px 20px;
+        border-radius: 25px;
+        column-gap: 10px;
+    }
 
+    .subscribe-form__input {
+        font-size: 20px;
+    }
+}
 
+@media (max-width: 600px) {
+    .cta__plate::before {
+        left: 30px;    
+    }
+    
+    .cta__plate::after {
+        top: 50px;
+        right: 30px;
+    }
 
+    .subscibe-form {
+        flex-direction: column;
+        padding: 10px;
+        row-gap: 10px;
+        align-items: center;
+        width: 400px;
+    }
 
+    .subscribe-form__input {
+        text-align: center;
+        padding: 15px 0;
+        background-color: #f0f0f0;
+        border-radius: 20px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -926,6 +949,12 @@ a {
         row-gap: 20px;
     }
 
+    .subscibe-form {        
+        width: 300px;
+    }
 
+    .footer {
+        padding: 30px 0 44px;
+    }
 
 }
