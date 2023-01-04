@@ -878,6 +878,27 @@ a {
         border-radius: 40px;
     }
 
+    .cta{
+        padding: 50px 0;
+    }
+
+    .cta__title{
+        margin-bottom: 20px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .cta__text{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .cta__plate{
+        min-height: 380px;
+        padding: 20px 15px;
+        border-radius: 40px;
+    }
+
 
 
 
