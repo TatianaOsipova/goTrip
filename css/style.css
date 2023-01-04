@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-.none{
+.none {
     display: none !important;
 }
 
@@ -123,12 +123,16 @@ a {
     color: var(--orange);
 }
 
-.nav__login{
+.nav__login {
     display: flex;
     column-gap: 25px;
     font-size: 15px;
     font-weight: 500;
     align-items: center;
+}
+
+.nav__toggle {
+    display: none;
 }
 
 .logo {
@@ -228,7 +232,7 @@ a {
     pointer-events: none;
 }
 
-.header__img::after{
+.header__img::after {
     content: "";
     position: absolute;
     top: 30px;
@@ -236,6 +240,7 @@ a {
     width: 830px;
     height: 622px;
     background-image: url(./../images/decor-elements.svg);
+    pointer-events: none;
 }
 
 /* styling header end */
@@ -370,7 +375,7 @@ a {
     border-radius: 60px;
 }
 
-.customers__content{
+.customers__content {
     max-width: 565px;
 }
 
@@ -517,14 +522,14 @@ a {
     width: 800px;
 }
 
-.subscribe-form__input {    
+.subscribe-form__input {
     font-weight: 500;
-    font-size: 24px;    
+    font-size: 24px;
     text-align: center;
 }
 
 .subscribe-form__input::placeholder {
-    color: var(--secondary);    
+    color: var(--secondary);
 }
 
 .subscribe-form__btn {
@@ -560,3 +565,24 @@ a {
 }
 
 /* styling footer end */
+
+@media(max-width: 1269px) {
+    .container-right {
+        padding-left: 15px;
+    }
+
+}
+
+@media(max-width: 1000px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__login {
+        display: none;
+    }
+
+    .nav__toggle {
+        display: block;
+    }
+}
