@@ -7,6 +7,10 @@ owl.owlCarousel({
     margin: 30,
     startPosition: 1,
     items: 1,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     responsive: {
         540: {
             items: 3,
